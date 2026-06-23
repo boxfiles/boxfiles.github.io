@@ -1,0 +1,21 @@
+# Docs
+
+- [Why Boxfiles](/why): Why Boxfiles exists, what it optimizes for, and where it should not be used.
+- [Quickstart](/quickstart): Create a workspace, write a manifest, and run Boxfiles.
+
+- **Plugins**
+- [Authoring](/plugins/authoring): Plugin architecture, authoring API, context facts, and action providers.
+- [Installing](/plugins/installing): Declare, install, remove, cache, and troubleshoot Boxfiles plugins.
+- Builtin
+  - [copy](/plugins/builtin/copy): Copy files from manifest-local files directories.
+  - [gpu](/plugins/builtin/gpu): Built-in GPU context plugin.
+  - [link](/plugins/builtin/link): Built-in link action plugin.
+  - [network](/plugins/builtin/network): Built-in network context plugin.
+  - [os](/plugins/builtin/os): Built-in operating-system context plugin.
+  - [ownership](/plugins/builtin/ownership): Built-in ownership action plugin.
+  - [packages](/plugins/builtin/packages): Built-in package-manager context plugin.
+  - [permissions](/plugins/builtin/permissions): Built-in permissions action plugin.
+  - [remove](/plugins/builtin/remove): Plan removal of files or directories from workstation state.
+  - [rename](/plugins/builtin/rename): Built-in rename action plugin.
+  - [storage](/plugins/builtin/storage): Built-in storage and filesystem context plugin.
+  - [user](/plugins/builtin/user): Built-in user context plugin.
