@@ -90,15 +90,15 @@ boxfiles plugin remove hello --purge
 
 Default removal edits only `.boxfilesrc` and keeps cache artifacts. Purge is explicit. Boxfiles skips cache deletion when another remaining declaration still references the same cache entry. `file:` sources never delete local files.
 
-## List installed plugins [#list-installed-plugins]
+## Inspect installed plugins [#inspect-installed-plugins]
 
-Inspect registered plugins and providers:
+There is no dedicated `plugin list` command yet. Inspect `.boxfilesrc` directly to review declared plugins:
 
 ```sh
-boxfiles plugins list
+cat .boxfilesrc
 ```
 
-The list output includes plugin IDs, source labels, context fact keys, action provider kinds, and reproducibility warnings for configured plugin declarations.
+Planning and apply commands load declared plugins automatically.
 
 ## Reproducibility warnings [#reproducibility-warnings]
 
